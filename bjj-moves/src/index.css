@@ -1,0 +1,137 @@
+.dropdown {
+  position: relative;
+  margin-left: 20px; /* This offsets each dropdown 10px to the right */
+  padding: 10px;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.dropdown-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  border: 1px solid #ccc; /* Optional: Add a border */
+  background-color: #f0f0f0; /* Optional: Add a background color */
+  color: #333; /* Optional: Change the font color */
+}
+
+.missing-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  border: 1px solid #ccc; /* Optional: Add a border */
+  background-color: #f14646; /* Optional: Add a background color */
+  color: #333; /* Optional: Change the font color */
+}
+
+.youtube-embed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px; /* Optional: Add some indentation for the YouTube embeds */
+  border: 3px solid #ccc;
+  width: 50%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #323232;
+  border-radius: 1%;
+  animation: rotate 2s ease-in-out forwards;
+  animation-delay: 2s;
+  padding-bottom: 20px;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.input-btn {
+  display: inline;
+  width: 250px;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  border: 1px solid #ccc; /* Optional: Add a border */
+  background-color: #ffffff; /* Optional: Add a background color */
+  color: #333; /* Optional: Change the font color */
+  cursor: text;
+  margin-right: 10px;
+}
+
+.select-btn {
+  display: inline;
+  width: 250px;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  border: 1px solid #ccc; /* Optional: Add a border */
+  background-color: #ffffff; /* Optional: Add a background color */
+  color: #333; /* Optional: Change the font color */
+  margin-right: 10px;
+  height: 39px;
+}
+
+.submit-btn {
+  display: block;
+  width: 272px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc; /* Optional: Add a border */
+  background-color: #a0f8a0; /* Optional: Add a background color */
+  color: #333; /* Optional: Change the font color */
+  margin-right: 10px;
+}
+
+.clear-btn {
+  display: block;
+  width: 272px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc; /* Optional: Add a border */
+  background-color: #c8a0f8; /* Optional: Add a background color */
+  color: #ffffff; /* Optional: Change the font color */
+  margin: 10px;
+}
+
+.return-btn {
+  display: block;
+  width: 272px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc; /* Optional: Add a border */
+  background-color: #f8a0a0; /* Optional: Add a background color */
+  color: #333; /* Optional: Change the font color */
+  margin: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #323232;
+}
