@@ -30,7 +30,7 @@ function Form({ positions, fetchMoves, setIsOpen }) {
 
       if (response.status === 201) {
         alert("Move added successfully");
-        fetchMoves(); // Fetch moves again after adding a new move
+        fetchMoves();
         reset();
       } else {
         alert("Failed to add move");
